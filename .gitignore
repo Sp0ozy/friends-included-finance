@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+.vercel/
+node_modules/
+.secrets/
+.claude/
+CLAUDE.md
+AGENTS.md
+plans/
+docs/superpowers/plans/
+docs/superpowers/specs/

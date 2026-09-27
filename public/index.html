@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Friends Included | Finance desk</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="hero">
+      <div>
+        <p class="eyebrow">Wedding Guests for Hire · Day 4 homework</p>
+        <h1>Friends Included <span>Finance desk</span></h1>
+        <p>Sales, expenses, manager decisions, and the money left after all of them.</p>
+        <p class="owner">Iļja Molčanovs · 220605</p>
+      </div>
+      <div class="role-card">
+        <label for="role">Demonstration role</label>
+        <select id="role">
+          <option value="svetlana">Svetlana · manager</option>
+          <option value="richard">Richard · sales</option>
+          <option value="anastasia">Anastasia · sales</option>
+          <option value="jeanclaude">Jean-Claude · sales</option>
+          <option value="kevin">Kevin · expenses</option>
+        </select>
+        <p>Choose a fictional employee to test their permitted actions.</p>
+      </div>
+    </header>
+
+    <div id="message" class="message" role="status" hidden></div>
+    <section class="instructions card">
+      <div>
+        <h2>How to use this desk</h2>
+        <p>Salespeople enter sales and proposed commission percentages. Kevin enters paid expenses and a proposed allocation. Svetlana reviews pending entries, corrects proposals, and approves. Totals and the Google Sheet update from the saved records.</p>
+        <p>The actual Telegram bot handles staff submissions too. Start it privately, then Svetlana links the displayed Telegram user ID below.</p>
+      </div>
+      <nav id="links" aria-label="Project links"></nav>
+    </section>
+
+    <section id="entry" class="card"></section>
+    <section id="dashboard" class="card" hidden></section>
+    <section id="manager" class="card" hidden></section>
+    <section id="records" class="card"></section>
+    <footer>Fictional demonstration data · Supabase is the source of truth</footer>
+  </main>
+  <script type="module" src="/app.js"></script>
+</body>
+</html>
