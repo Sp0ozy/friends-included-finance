@@ -4,6 +4,7 @@
 .vercel/
 node_modules/
 .secrets/
+supabase/.temp/
 .claude/
 CLAUDE.md
 AGENTS.md

@@ -1,0 +1,6 @@
+.secrets/
+supabase/.temp/
+.env
+.env.*
+.git/
+.vercel/
